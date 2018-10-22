@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+group 'com.codegymvn'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    providedCompile group : 'javax.servlet', name: 'servlet-api', version: '2.5';
+}
